@@ -1,0 +1,33 @@
+.page-container {
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows:  1fr 5fr;
+}
+
+.sidebar-container, .header-container,
+.maincontent-container 
+{
+    border: 5px black solid;
+}
+
+.sidebar-container{
+    grid-column: 500px;
+    grid-row: 1 / 3;
+     background-color: blue;
+}
+
+.header-container{
+    grid-column: 2;
+    gird-row: 1;
+     background-color: green;
+
+}
+
+.maincontent-container{
+    grid-column: 2;
+    gird-row: 2/3;
+     background-color: red;
+    
+}
