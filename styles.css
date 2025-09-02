@@ -83,6 +83,7 @@ svg.smaller {
 .search-container {
     display: flex;
 
+    margin: 10px;
     height: 55px;
     /* border: black 5px solid; */
 }
@@ -106,9 +107,30 @@ input {
     margin-left: auto;
     margin-right: 10px;
     display: flex;
+    gap: 10px;
  
 }
 h2 {
     align-self: center;
     padding: 10px;
+}
+
+.profile-container {
+    display:flex;
+}
+
+button {
+    height:30px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-size: 18px;
+}
+
+.greeting {
+    font-size: 25px;
+    font-weight: bold;
+
 }
